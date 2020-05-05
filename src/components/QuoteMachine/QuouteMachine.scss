@@ -1,0 +1,78 @@
+.quote-box {
+
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 12px;
+  padding: 30px ;
+  line-height: 1.26;
+  font-size: 16px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.08);
+
+
+
+}
+.author {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.text {
+  margin: 0 0 8px 0;
+}
+.new-quote, .tweet-quote-btn{
+  border: 0 ;
+  appearance: none;
+  cursor: pointer;
+
+  border-radius: 8px;
+
+}
+.new-quote{
+  font-family: inherit;
+  padding: 4px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  transition: all 0.2s ease-in;
+  border: 2px solid white;
+  background: transparent ;
+
+  &:hover {
+    background: white ;
+    color: #2c6bce;
+    transform: scale(1.05);
+  }
+}
+
+.tweet-quote-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  background: #2F80ED;
+  margin: 0 0 0 16px;
+  padding: 4px;
+  color: white;
+  overflow: hidden;
+  font-weight: bold;
+  transition: width 0.6s ease-in-out;
+  font-size: 14px;
+
+  .fa-twitter {
+    margin: 0 12px 0 6px;
+    font-size: 18px;
+  }
+  &:hover{
+    width: 102px;
+  }
+}
+.tweet-quote{
+  text-decoration: none;
+
+}
+.buttons{
+  display: flex;
+
+}
