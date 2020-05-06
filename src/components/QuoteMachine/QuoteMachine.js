@@ -78,7 +78,7 @@ class QuoteMachine extends Component {
                     this.renderQuote()
                     : <span><i className="fa fa-spinner"></i></span>}<br />
                 <div className="buttons">
-                    <button className="new-quote" onClick={this.getRandomQuote} title="Most of these are truly meaningless!">
+                    <button className="new-quote" onClick={this.getRandomQuote} title="Most of these are truly meaningfull!">
                         Get A Random Quote
                     </button>
                     {this.tweet()}

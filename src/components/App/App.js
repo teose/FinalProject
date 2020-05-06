@@ -136,7 +136,7 @@ function App() {
                         </h1>
 
                         <div className="social-icons-wrapper">
-                            <a className="social-link" href="#" target="_blank">
+                            <a className="social-link" href="https://www.facebook.com/mateusz.bianketti" target="_blank">
                                 <button className="social-btn" title="">
                                     <i className="fa fa-facebook"></i>
                                 </button>
@@ -146,12 +146,12 @@ function App() {
                                     <i className="fa fa-linkedin"></i>
                                 </button>
                             </a>
-                            <a className="social-link" href="#" target="_blank">
+                            <a className="social-link" href="https://www.youtube.com/watch?v=-5RlTUWvvcY" target="_blank">
                                 <button className="social-btn" title="">
                                     <i className="fa fa-youtube"></i>
                                 </button>
                             </a>
-                            <a className="social-link" href="#" target="_blank">
+                            <a className="social-link" href="https://github.com/teose" target="_blank">
                                 <button className="social-btn" title="">
                                     <i className="fa fa-github"></i>
                                 </button>
