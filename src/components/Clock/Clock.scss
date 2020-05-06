@@ -31,7 +31,6 @@
   border-radius: 2em 0 0 2em;
   position: absolute;
   top: 50%;
-
   transform-origin: 100%;
   transform: translate(-50%, -50%) rotate(90deg);
   transition: all 0.05s;
@@ -40,21 +39,19 @@
   &.min-hand, &.hour-hand {
     background: rgba(0, 0, 0, 0.8);
   }
+
   &.hour-hand {
     left: 20%;
   }
+
   &.second-hand {
     width: 96px;
     height: 1.5px;
     left: -1%;
-
-
   }
 
   &.min-hand {
     width: 74px;
     left: 12%;
-
-
   }
 }

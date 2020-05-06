@@ -132,7 +132,7 @@ function App() {
 
                     <div className="right-column-bottom">
                         <h1 className="social-header">
-                            Follow me on
+                            Check my profiles
                         </h1>
 
                         <div className="social-icons-wrapper">
@@ -143,7 +143,7 @@ function App() {
                             </a>
                             <a className="social-link" href="#" target="_blank">
                                 <button className="social-btn" title="">
-                                    <i className="fa fa-instagram"></i>
+                                    <i className="fa fa-linkedin"></i>
                                 </button>
                             </a>
                             <a className="social-link" href="#" target="_blank">

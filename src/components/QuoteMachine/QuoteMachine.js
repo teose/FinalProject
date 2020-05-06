@@ -3,15 +3,15 @@ import "./QuouteMachine.scss";
 
 class QuoteMachine extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             currentQuote: {
                 quote: '',
                 author: ''
             },
             hasQuote: false
-        }
+        };
         this.END_POINT = 'https://gist.githubusercontent.com/irkreja/5f35dc197c6be4ddc32a45acdd23fcd7/raw/0d9b85d4a9d9da9dc67fa0257df66ed80702ff3a/quotes.json'
     }
 
@@ -41,7 +41,7 @@ class QuoteMachine extends Component {
                     return console.error('404 No quotes found!')
                 }
             })
-    }
+    };
 
     renderQuote = () => {
         const { author, quote } = this.state.currentQuote;
@@ -54,13 +54,13 @@ class QuoteMachine extends Component {
                 <p className="author">~ {author}</p>
             </div>
         )
-    }
+    };
 
     tweet = () => {
         const thisQuote = this.state.currentQuote.quote;
         const thisAuthor = this.state.currentQuote.author;
         return (
-            <a className="tweet-quote" href={`https://twitter.com/intent/tweet?text="${thisQuote}" ~${thisAuthor} http://totally-random-quote-machine.surge.sh by @Syknapse`} target="_blank">
+            <a className="tweet-quote" href={`https://twitter.com/intent/tweet?text="${thisQuote}" ~${thisAuthor}    🔥Quote Resolver🔥 By @Teose`} target="_blank">
                 <button className="tweet-quote-btn" title="Tweet this quote">
                     <i className="fa fa-twitter"></i>
                           <span>Tweet!</span>
@@ -68,7 +68,7 @@ class QuoteMachine extends Component {
                 </button>
             </a>
         )
-    }
+    };
 
     render(){
         const { hasQuote } = this.state;
