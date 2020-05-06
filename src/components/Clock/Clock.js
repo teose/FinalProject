@@ -24,10 +24,17 @@ function Clock() {
         return () => clearInterval(interval);
     }, []);
 
+    const showCat = () => {
 
+        const cat = document.querySelector(".cat-lol");
+        cat.classList.add("show");
+        setTimeout(() => {
+            cat.classList.remove("show")
+        }, 1200)
+    };
 
     return (
-        <div className="clock" style={{ backgroundImage: `url(${clockBg})`}}>
+        <div className="clock" onClick={showCat} style={{ backgroundImage: `url(${clockBg})`}}>
             <div className="clock-face">
                 <div ref={hourHand} className="hand hour-hand"></div>
                 <div ref={minsHand} className="hand min-hand"></div>

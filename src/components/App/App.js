@@ -3,6 +3,9 @@ import './App.scss';
 import Clock from "../Clock/Clock";
 import Particles from 'react-particles-js';
 import QuoteMachine from "../QuoteMachine/QuoteMachine";
+import FollowMe from "../FollowMe/FollowMe";
+import AboutMe from "../AboutMe/AboutMe";
+import Cat from "../../img/pngwave.png"
 
 function App() {
     return (
@@ -120,43 +123,24 @@ function App() {
                     "retina_detect": true
                 }}
             />
+            <img src={Cat} className="cat-lol"/>
             <div className="content-wrapper">
-                <div className="left-column">
-                   <QuoteMachine/>
-                </div>
-
-                <div className="right-column">
-                    <div className="right-column-top">
+                <div className="column">
+                    <div className="column-top">
                         <Clock/>
                     </div>
+                    <div className="column-bottom flex-row">
+                        <QuoteMachine/>
+                    </div>
+                </div>
 
-                    <div className="right-column-bottom">
-                        <h1 className="social-header">
-                            Check my profiles
-                        </h1>
+                <div className="column">
+                    <div className="column-top">
+                        <AboutMe/>
+                    </div>
 
-                        <div className="social-icons-wrapper">
-                            <a className="social-link" href="https://www.facebook.com/mateusz.bianketti" target="_blank">
-                                <button className="social-btn" title="">
-                                    <i className="fa fa-facebook"></i>
-                                </button>
-                            </a>
-                            <a className="social-link" href="#" target="_blank">
-                                <button className="social-btn" title="">
-                                    <i className="fa fa-linkedin"></i>
-                                </button>
-                            </a>
-                            <a className="social-link" href="https://www.youtube.com/watch?v=-5RlTUWvvcY" target="_blank">
-                                <button className="social-btn" title="">
-                                    <i className="fa fa-youtube"></i>
-                                </button>
-                            </a>
-                            <a className="social-link" href="https://github.com/teose" target="_blank">
-                                <button className="social-btn" title="">
-                                    <i className="fa fa-github"></i>
-                                </button>
-                            </a>
-                        </div>
+                    <div className="column-bottom">
+                       <FollowMe/>
                     </div>
                 </div>
             </div>
