@@ -30,7 +30,7 @@ function Clock() {
         cat.classList.add("show");
         setTimeout(() => {
             cat.classList.remove("show")
-        }, 1200)
+        }, 1400)
     };
 
     return (

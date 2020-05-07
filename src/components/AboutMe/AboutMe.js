@@ -21,7 +21,9 @@ function AboutMe() {
                     <div className="card-front"></div>
                     <div className="card-back">
                         <h2 className="card-back-header">Mateusz Bianketti</h2>
-                        <h3 className="card-back-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi eos eum eveniet facilis fuga hic, iusto nesciunt nisi, optio quam tempore totam, velit voluptatibus voluptatum. Ad autem odit quisquam.</h3>
+                        <h3 className="card-back-text">
+                            I’m a front-end developer, currently based in Warsaw. I describe myself as a code loving designer, open source enthusiast and web platform builder. In my spare time I like to learn about consciousness transcendence.<br/>Currently I'm available for hire.
+                        </h3>
 
                     </div>
                 </div>

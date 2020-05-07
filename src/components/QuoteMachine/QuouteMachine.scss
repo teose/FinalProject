@@ -29,6 +29,9 @@ $large-screen: 1024px;
 .text {
   margin: 0 0 8px 0;
   font-size: 12px;
+  @media(min-width: $large-screen){
+    font-size: 13.5px;
+  }
 }
 .new-quote, .tweet-quote-btn{
   border: 0 ;
