@@ -7,6 +7,7 @@ import FollowMe from "../FollowMe/FollowMe";
 import AboutMe from "../AboutMe/AboutMe";
 import Cat from "../../img/pngwave.png"
 
+
 function App() {
     return (
         <div className="app-wrapper">

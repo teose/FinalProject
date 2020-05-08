@@ -27,6 +27,7 @@ class QuoteMachine extends Component {
                 const quotesLength  = allQuotes.length;
                 const quoteNumber = Math.floor(Math.random() * quotesLength);
                 console.log(allQuotes[quoteNumber], quoteNumber); //test wywalania
+
                 if (quotesLength > 0) {
                     let { currentQuote } = this.state;
                     currentQuote.quote = allQuotes[quoteNumber].quote;
@@ -64,7 +65,6 @@ class QuoteMachine extends Component {
                 <button className="tweet-quote-btn" title="Tweet this quote">
                     <i className="fa fa-twitter"></i>
                           <span>Tweet!</span>
-
                 </button>
             </a>
         )

@@ -1,6 +1,7 @@
 import React , { useRef, useEffect } from 'react';
 import './Clock.scss';
 import clockBg from "../../img/clock_bg3.png"
+
 function Clock() {
     const secondHand = useRef(null);
     const minsHand = useRef(null);
@@ -12,6 +13,7 @@ function Clock() {
             const seconds = now.getSeconds();
             const secondsDegrees = ((seconds / 60) * 360) + 90;
             secondHand.current.style.transform = `rotate(${secondsDegrees}deg)`;
+
             const mins = now.getMinutes();
             const minsDegrees = ((mins / 60) * 360) + ((seconds/60)*6) + 90;
             minsHand.current.style.transform = `rotate(${minsDegrees}deg)`;
