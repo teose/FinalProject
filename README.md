@@ -1,10 +1,11 @@
-## Quote Resolver by Teose!
+## Quote Resolver by Teose
 
 ### About:
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
+
 `Main functionality:`<br/>
-Chose random classic quote  <br/>
+Chose random classic quote!  <br/>
 
 `Features:`<br/>
 Classic Clock;<br/>
@@ -20,9 +21,17 @@ Check my profiles buttons!<br/>
 ## Installation
 
 run `npm install`<br/>
-and
-`npm install classnames`<br/>
+also:
+</br>
 
+`npm install -g sass`</br>
+<br/>
+`npm install classnames`<br/>
+</br>
+`npm install react-particles-js`</br>
+</br>
+
+To install Node.js visit https://nodejs.org/en/download/ </br>
 ## To run App
 
 In the project directory, you can run:
